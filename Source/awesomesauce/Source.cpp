@@ -31,7 +31,7 @@ GameApp* GameApp::self = NULL;
 
 void GameApp::initializeApp() {
 
-	checkStorage(298000);
+	checkStorage(300);
     checkMemory();
 	checkCPU();
     
